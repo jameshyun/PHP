@@ -3,6 +3,8 @@
 		<title>Greeting Form</title>
 	</head>
 	<body>
+		// Check if input form named 'name' is emptry
+		// if not, display greeting message with the name
 		<?php if(!empty($_POST['name'])) {
 			echo "Greeting, {$_POST['name']}, and welcome.";
 		}
